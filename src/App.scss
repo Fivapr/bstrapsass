@@ -1,0 +1,13 @@
+/* Bring in your custom variables */
+@import 'scss/_variables.scss';
+
+/* or just overwrite a variable */
+
+
+/* Set $icon-font-path from sass-loader issue #40, https://github.com/webpack-contrib/sass-loader/issues/40#issuecomment-70269553 */
+$icon-font-path: 'bootstrap/fonts/bootstrap/';
+@import 'bootstrap/stylesheets/_bootstrap.scss';
+
+body{
+
+}
